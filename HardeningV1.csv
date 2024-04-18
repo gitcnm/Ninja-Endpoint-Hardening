@@ -1,9 +1,0 @@
-ID,Category,Name,Method,MethodArgument,RegistryPath,RegistryItem,ClassName,Namespace,Property,DefaultValue,RecommendedValue,Operator,Severity
-1000,Features,"SMBv1 Support",WindowsOptionalFeature,smb1protocol,,,,,,Disabled,Disabled,=,High
-1103,"Account Policies","Store passwords using reversible encryption",secedit,"System Access\ClearTextPassword",,,,,,0,0,=,High
-1326,"Security Options","Network security: Do not store LAN Manager hash value on next password change",Registry,,HKLM:\System\CurrentControlSet\Control\Lsa,NoLMHash,,,,1,1,=,High
-1708,"Administrative Templates: Windows Components","BitLocker Drive Encryption: Volume status",BitLockerVolume,VolumeStatus,,,,,,FullyDecrypted,FullyEncrypted,=,High
-1764,"Administrative Templates: Printer","Point and Print Restrictions: When installing drivers for a new connection (CVE-2021-34527)",Registry,,"HKLM:\SOFTWARE\Policies\Microsoft\Windows NT\Printers\PointAndPrint",NoWarningNoElevationOnInstall,,,,0,0,=,High
-1765,"Administrative Templates: Printer","Point and Print Restrictions: When updating drivers for an existing connection (CVE-2021-34527)",Registry,,"HKLM:\SOFTWARE\Policies\Microsoft\Windows NT\Printers\PointAndPrint",UpdatePromptSettings,,,,0,0,=,High
-1805,"Microsoft Defender Antivirus","Real time monitoring",MpPreference,DisableRealtimeMonitoring,,,,,,False,False,=,High
-2203,"MS Security Guide","WDigest Authentication",Registry,,HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders\WDigest,UseLogonCredential,,,,0,0,=,High
